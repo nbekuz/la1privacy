@@ -63,3 +63,13 @@ a { color: #0284c7; }
   color: #0f172a;
   width: 40%;
 }
+.page-list { list-style: none; padding: 0; }
+.page-list li {
+  padding: 12px 0;
+  border-bottom: 1px solid #e2e8f0;
+  font-size: 0.95rem;
+}
+.page-list li:last-child { border-bottom: none; }
+.page-list a { font-weight: 600; text-decoration: none; }
+.page-list a:hover { text-decoration: underline; }
+.muted { color: #94a3b8; font-size: 0.85rem; }
